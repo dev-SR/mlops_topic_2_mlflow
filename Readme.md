@@ -41,8 +41,6 @@ kubectl get secret -n kubeflow mlpipeline-minio-artifact -o jsonpath="{.data.sec
 # > minio123
 ```
 
-For the purpose of this guide, let's assume the service is minio-service.kubeflow.svc.cluster.local:9000, and the credentials are minio/minio123. (You should verify this in your actual cluster).
-
 
 ### Step 5: Deploy MLflow
 
